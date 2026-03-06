@@ -4,8 +4,7 @@ on:
     branches:
       - master
     paths:
-      - "js/**.js"
-      - ".github/workflows/**"
+      - "**/**"
       - "!python/**.py"
 
 jobs:
