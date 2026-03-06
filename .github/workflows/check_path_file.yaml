@@ -5,6 +5,7 @@ on:
       - master
     paths:
       - "js/**.js"
+      - ".github/workflows/**"
       - "!python/**.py"
 
 jobs:
