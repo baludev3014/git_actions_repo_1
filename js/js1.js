@@ -1,0 +1,1 @@
+console.log("First js msg logged in the file called js1.js")
