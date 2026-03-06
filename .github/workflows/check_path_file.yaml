@@ -23,6 +23,7 @@ jobs:
 
 # just logging the msg to console with github context api details.
       - name: Logging the message to the console when we push .js files into js repo.
-        run: echo "new js file | change in the js file was triggered. Thank you."
-        run: echo "${{ toJSON(github) }}"
+        run: |
+          echo "new js file | change in the js file was triggered. Thank you."
+          echo "${{ toJSON(github) }}"
 
