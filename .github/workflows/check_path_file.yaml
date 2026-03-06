@@ -1,24 +1,23 @@
-name: GitHub Actions Practise towards path properties on the on.<event_name>.paths
+name: GitHub Actions Practise towards path properties on the.
 on:
   push:
     branches:
       - master
     paths:
-      - 'js/**.js'
-      - '!python/**.py'
+      - "js/**.js"
+      - "!python/**.py"
 
 jobs:
-  log_only_when_js_files_push_to_main:
-
+  log:
     # setting up a shared runner by github 
     runs-on: ubuntu-latest
 
     steps:
-    # checking out repository and logging the repo details
+    # checking out repository.
       - name: checkout the repository
         uses: actions/checkout@v5
         with:
-          node-version: 24.13.1
+          node-version: "24.13.1"
         # run: echo "${{ toJSON(github) }}"
 
 # just logging the msg to console with github context api details.
