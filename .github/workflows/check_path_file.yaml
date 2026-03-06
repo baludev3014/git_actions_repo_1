@@ -2,7 +2,7 @@ name: GitHub Actions Practise towards path properties on the on.<event_name>.pat
 on:
   push:
     branches:
-      - main
+      - master
     paths:
       - 'js/**.js'
       - '!python/**.py'
