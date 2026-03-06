@@ -17,8 +17,6 @@ jobs:
     # checking out repository.
       - name: checkout the repository
         uses: actions/checkout@v5
-        with:
-          node-version: 24.13.1
         # run: echo "${{ toJSON(github) }}"
 
 # just logging the msg to console with github context api details.
