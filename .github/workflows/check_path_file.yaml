@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v5
         with:
           node-version: 24.13.1
-        run: echo "${{ toJSON(github) }}"
+        # run: echo "${{ toJSON(github) }}"
 
 # just logging the msg to console with github context api details.
       - name: Logging the message to the console when we push .js files into js repo.
